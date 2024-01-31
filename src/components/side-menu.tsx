@@ -17,7 +17,7 @@ import {
   inputImages,
 } from "@/constants/img-paths";
 
-export function NavigationMenuDemo() {
+export function ShadcnImagesPreview() {
   return (
     <NavigationMenu>
       <NavigationMenuList className=" w-full h-full flex flex-col justify-center items-start gap-2">

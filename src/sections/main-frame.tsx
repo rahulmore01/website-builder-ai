@@ -1,11 +1,11 @@
 "use client";
+import React from "react";
 import { useState } from "react";
 import Sidebar from "@/components/sidebar";
 import Toolbar from "@/components/toolbar";
 import { Button } from "@/components/ui/button";
 import ModeToggle from "@/components/ui/mode-toggle";
 import { FileCode, PanelsTopLeft, Share } from "lucide-react";
-import React from "react";
 import CodeView from "@/components/code-view";
 import Canvas from "@/components/canvas";
 
