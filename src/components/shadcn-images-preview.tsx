@@ -15,7 +15,7 @@ import {
   avatarImages,
   paginationImages,
   inputImages,
-} from "@/constants/img-paths";
+} from "@/utils/img-paths";
 
 export function ShadcnImagesPreview() {
   return (

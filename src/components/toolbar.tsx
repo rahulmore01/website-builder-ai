@@ -1,7 +1,7 @@
 // "use client";
 import React, { useState } from "react";
 import TailwindSelect from "react-tailwindcss-select";
-import { suggestions } from "@/constants/tw-classes";
+import { suggestions } from "@/utils/tw-classes";
 
 const Toolbar = () => {
   const [fixedClasses, setFixedClasses] = useState([
