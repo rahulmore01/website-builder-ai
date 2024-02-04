@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { UserRoundPlus } from "lucide-react";
-
-import { NavigationMenuDemo } from "./side-menu";
+import { ShadcnImagesPreview } from "./shadcn-images-preview";
+import { ShadcnCompPreview } from "./shadcn-component-preview";
 
 const Sidebar = () => {
   return (
@@ -11,9 +11,10 @@ const Sidebar = () => {
         <div className="w-[40px] h-[40px] bg-primary rounded-md"></div>
         <span className="font-semibold text-[18px]">Logo</span>
       </div>
-      {/* shadcnnav */}
-      <div className="h-full w-full p-8">
-        <NavigationMenuDemo />
+      {/* shadcn side nav */}
+      <div className="h-full w-full px-14 py-6">
+        {/* <ShadcnImagesPreview /> */}
+        <ShadcnCompPreview />
       </div>
       <div className=" w-full xFlex gap-4 h-20 border-t border-[50%] py-6 px-8">
         <Button className="bg-red-500 hover:bg-red-600 w-full max-w-[270px] h-9 rounded-lg dark:text-gray-200">

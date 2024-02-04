@@ -1,11 +1,4 @@
-import {
-  Copy,
-  FileCode,
-  MonitorPlay,
-  PanelsTopLeft,
-  Smartphone,
-  Tablet,
-} from "lucide-react";
+import { MonitorPlay, Smartphone, Tablet } from "lucide-react";
 import { useState } from "react";
 
 const Canvas = () => {
